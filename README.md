@@ -5,7 +5,7 @@
 Install using NPM
 
 ```sh
-npm i simple-progress-bar-using-javascript
+npm i progress-bar-plugin-using-javascript
 ```
 
 
@@ -15,7 +15,7 @@ Include the plugin styles:
 ```sh
   <link
       rel="stylesheet"
-      href="../node_modules/simple-progress-bar-using-javascript/src/style.css"
+      href="../node_modules/progress-bar-plugin-using-javascript/src/style.css"
     />
 ```
 
@@ -23,7 +23,7 @@ Add the plugin to the page:
 
 ```sh
 
-    <script src="../node_modules/simple-progress-bar-using-javascript/src/index.js"></script>
+    <script src="../node_modules/progress-bar-plugin-using-javascript/src/index.js"></script>
 ```
 In HTML:
 
