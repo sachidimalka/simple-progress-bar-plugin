@@ -1,0 +1,39 @@
+{
+  "name": "progress-bar-plugin-using-javascript",
+  "version": "1.0.0",
+  "description": "is the string wds",
+  "main": "dist/progress-bar-plugin-using-javascript.cjs.js",
+  "module": "dist/progress-bar-plugin-using-javascript.esm.js",
+  "browser": "dist/progress-bar-plugin-using-javascript.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/spec",
+    "pretest": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachidimalka/simple-progress-bar-plugin.git"
+  },
+  "keywords": [
+    "progress-bar"
+  ],
+  "author": "sachini siriwardhana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachidimalka/simple-progress-bar-plugin.git"
+  },
+  "homepage": "https://github.com/sachidimalka/simple-progress-bar-plugin.git#readme",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "jest": "^28.1.1",
+    "rollup": "^2.75.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
